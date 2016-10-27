@@ -8,7 +8,7 @@ var MemcachedStore = module.exports = function (hosts, options) {
 	this.memcachedOptions = _(this.options).clone();
 	delete this.memcachedOptions.prefix;
 
-	this.client = new this.Memcached(hosts, this.options.memcachedOptions);
+	this.client = new this.Memcached(hosts, this.memcachedOptions);
 };
 
 MemcachedStore.prototype = Object.create(AbstractClientStore.prototype);
