@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "underscore": "~1.5.1",
-    "memcached": "~0.2.4",
+    "memcached": "~2.2.2",
     "express-brute": "~0.4.2"
   }
 }
