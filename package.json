@@ -1,5 +1,5 @@
 {
-  "name": "express-brute-memcached",
+  "name": "@hubdoc/express-brute-memcached",
   "version": "0.0.1",
   "description": "A memcached store for express-brute",
   "keywords": [
